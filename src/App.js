@@ -24,7 +24,8 @@ const App = () => {
     }
 
     const handleDeleteCountry = async (countryId) => {
-        await axios.delete('${apiEndpoint}/${countryId}')
+        const deletePath = apiEndpoint + '/' + countryId;
+        await axios.delete(deletePath)
         setCountries(countries.filter(c => c.id !== countryId));
     }
 
@@ -77,7 +78,7 @@ const App = () => {
                 <header className="App-header">
                 </header>
                 { countries.map( country =>
-                    <Country key={ country.id } country={ country } onChangeValue={ handleAdjustCount }
+                    <Country key={ country.id } country={ country } onChangeValue={ handleAdjustCount } onDelete={handleDeleteCountry}
                 />)}
                 <div>
                     <div>

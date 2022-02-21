@@ -3,7 +3,7 @@ import Medal from './medal';
 import IncrDecrButtons from './incrdecrbuttons';
 
 const Country = (props) => {
-    const { onChangeValue, country } = props;
+    const { onChangeValue, onDelete, country } = props;
     const medalList = [
         { id: 1, deco: 'MedalCountBronze', count: country.bronze, medalType: 'bronze' },
         { id: 2, deco: 'MedalCountSilver', count: country.silver, medalType: 'silver' },
@@ -34,6 +34,11 @@ const Country = (props) => {
                 <a>
                     Total Medals Earned: { country.bronze + country.gold + country.silver }
                 </a>
+            </div>
+            < div className="DeleteCountry" >
+                <button onClick={ e => { onDelete (country.id); }}  >
+                    Remove { country.name }
+                </button>
             </div>
             <hr />
         </div>
