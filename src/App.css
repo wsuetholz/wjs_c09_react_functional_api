@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+}
+
+.Country {
+  text-align: center;
+  padding-top: 0px;
+  vertical-align: middle;
+}
+
+.CountryName {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.CountryFlag {
+  height: 5vmin;
+  margin-left: 12px;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+.MedalCountBronze {
+  text-transform: capitalize;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 200px;
+  height: 300px;
+  background: sandybrown;
+  border-radius: 50%;
+}
+
+.MedalCountGold {
+  text-transform: capitalize;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 200px;
+  height: 300px;
+  background: gold;
+  border-radius: 50%;
+}
+
+.MedalCountSilver {
+  text-transform: capitalize;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 200px;
+  height: 300px;
+  background: silver;
+  border-radius: 50%;
+}
+
+.IncrMedalButtom {
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.IncrMedalButtons {
+  vertical-align: middle;
+  margin-left: 40px;
+  margin-right: 40px;
+  opacity: 0;
+}
