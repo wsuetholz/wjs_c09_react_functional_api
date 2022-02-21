@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wjs_c09_react_functional_api/static/css/main.b9a1f5c4.css",
-    "main.js": "/wjs_c09_react_functional_api/static/js/main.29714e4b.js",
+    "main.js": "/wjs_c09_react_functional_api/static/js/main.feaf8011.js",
     "static/js/787.0c6d6493.chunk.js": "/wjs_c09_react_functional_api/static/js/787.0c6d6493.chunk.js",
     "static/media/logo.svg": "/wjs_c09_react_functional_api/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/wjs_c09_react_functional_api/index.html",
     "main.b9a1f5c4.css.map": "/wjs_c09_react_functional_api/static/css/main.b9a1f5c4.css.map",
-    "main.29714e4b.js.map": "/wjs_c09_react_functional_api/static/js/main.29714e4b.js.map",
+    "main.feaf8011.js.map": "/wjs_c09_react_functional_api/static/js/main.feaf8011.js.map",
     "787.0c6d6493.chunk.js.map": "/wjs_c09_react_functional_api/static/js/787.0c6d6493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9a1f5c4.css",
-    "static/js/main.29714e4b.js"
+    "static/js/main.feaf8011.js"
   ]
 }
